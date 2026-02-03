@@ -27,12 +27,14 @@ we have 2 Options
 Example: GPT-4-O-Mini, lama 
 the tokenizer which is already created and which is already trained --> during the training of GPT-2 OR GPT-4-O-Mini 
 
-# Note: Any pre-trained tokenizer split text in a different way  into tokens.#   
+# Note: Any pre-trained tokenizer split text in a different way  into tokens.
 
 eg: 
-GP2-2:- "unbelievable" ---> ["un", "believ", "able"]  --> breaking it into 3 Tokens. 
 ---
-BERT:-  "unbelievable" ---> ["un", "believable"] --> breaking it into 2 Tokens.
+GP2-2:- ##unbelievable##  ---> ["un", "believ", "able"]  --> breaking it into 3 Tokens. 
+---
+BERT:-  #unbelievable# ---> ["un", "believable"] --> breaking it into 2 Tokens.
+---
 
 Lets go with OPTION 1 :- Training  our own tokenzier
 question: why should we train the own tokenizer?
