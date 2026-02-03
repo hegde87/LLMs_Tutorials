@@ -62,11 +62,15 @@ holi is my favorite festival
 diwali vrings lights and sweets
 india won the cricket match
 ```
-
+```
 step1:- pip install sentencepiece
-
+```
+```
 step2:- import module in our code 
-
+```
+```
 step3:- train it with our dataset --> so that it generates tokens 
-
+```
+```
 step4:- then wil give that tokens to our LLM for training 
+```
