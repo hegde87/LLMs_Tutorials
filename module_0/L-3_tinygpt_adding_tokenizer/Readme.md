@@ -31,9 +31,9 @@ the tokenizer which is already created and which is already trained --> during t
 
 eg: 
 ---
-GP2-2:- *unbelievable*  ---> ["un", "believ", "able"]  --> breaking it into 3 Tokens. 
+GP2-2:- **unbelievable**  ---> ["un", "believ", "able"]  --> breaking it into 3 Tokens. 
 ---
-BERT:-  *unbelievable* ---> ["un", "believable"] --> breaking it into 2 Tokens.
+BERT:-  **unbelievable** ---> ["un", "believable"] --> breaking it into 2 Tokens.
 ---
 
 Lets go with OPTION 1 :- Training  our own tokenzier
