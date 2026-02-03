@@ -19,13 +19,19 @@
 when ever we are creating a LLM from Scratch 
 Choice of Tokenizer , this thing matters a lot 
 we have 2 Options 
-Option 1:- we create our own tokenizer --> we train it with our dataset , teach how to creates tokens. 
-Option 2:- Use a Pre-Trained Tokenizer 
-eg: GPT-4-O-Mini, lama 
+
+# Option 1:- we create our own tokenizer --> we train it with our dataset , teach how to creates tokens. 
+
+# Option 2:- Use a Pre-Trained Tokenizer 
+
+Example: GPT-4-O-Mini, lama 
 the tokenizer which is already created and which is already trained --> during the training of GPT-2 OR GPT-4-O-Mini 
-Note: Any pre-trained tokenizer split text in a different way  into tokens.  
+
+# Note: Any pre-trained tokenizer split text in a different way  into tokens.#   
+
 eg: 
 GP2-2:- "unbelievable" ---> ["un", "believ", "able"]  --> breaking it into 3 Tokens. 
+---
 BERT:-  "unbelievable" ---> ["un", "believable"] --> breaking it into 2 Tokens.
 
 Lets go with OPTION 1 :- Training  our own tokenzier
