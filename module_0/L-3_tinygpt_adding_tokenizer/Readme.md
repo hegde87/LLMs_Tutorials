@@ -32,7 +32,7 @@ Lets go with OPTION 1 :- Training  our own tokenzier
 question: why should we train the own tokenizer?
 answer: Our dataset will be different from any LLM 
 
-For Example: a LLM can answer Legal queries properly / a LLM can answer DR question
+# For Example: a LLM can answer Legal queries properly / a LLM can answer DR question
 
 Example: we want to create a LLM which can reply with Hindi & English Mix Responses.
 DataSet contains:
@@ -64,7 +64,9 @@ india won the cricket match
 ```
 
 step1:- pip install sentencepiece
+
 step2:- import module in our code 
+
 step3:- train it with our dataset --> so that it generates tokens 
+
 step4:- then wil give that tokens to our LLM for training 
-step5:-
